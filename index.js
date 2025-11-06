@@ -8,11 +8,11 @@ kits.forEach((kit) => {
   btnEl.innerText = kit;
 
   // Add background image
-  btnEl.style.backgroundImage = 'images/" + kit + ".png';
+  btnEl.style.backgroundImage = '\images/" + kit + ".png';
 
   // Create audio element
   const audioEl = document.createElement("audio");
-  audioEl.src = "audio/" + kit + ".mp3";
+  audioEl.src = "\audio/" + kit + ".mp3";
 
   // Play sound on click
   btnEl.addEventListener("click", () => {
